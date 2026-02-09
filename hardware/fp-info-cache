@@ -1,4 +1,4 @@
-26808269546845150
+26846964687537110
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61592,6 +61592,174 @@ emi filter
 0
 5
 5
+Foinse Footprints
+AMASS_XT30PW-M
+
+
+0
+4
+4
+Foinse Footprints
+CONN4_2601-1104_WAG
+
+2601-1104 
+0
+8
+8
+Foinse Footprints
+CONN8_2601-1108_WAG
+
+2601-1108 
+0
+16
+16
+Foinse Footprints
+DBV0005A_L
+
+TLV70433DBVT 
+0
+5
+5
+Foinse Footprints
+DBV0005A_M
+
+TLV70433DBVT 
+0
+5
+5
+Foinse Footprints
+DBV0005A_N
+
+TLV70433DBVT 
+0
+5
+5
+Foinse Footprints
+HARWIN_S2761-46R
+
+
+0
+1
+1
+Foinse Footprints
+IND_PA4342.332NLT
+
+
+0
+2
+2
+Foinse Footprints
+IND_SPM10065VT-3R3M-D
+
+
+0
+2
+2
+Foinse Footprints
+IND_SRP4020TA-4R7M
+
+
+0
+2
+2
+Foinse Footprints
+IPP80P03P4L04AKSA1
+
+IPP80P03P4L04AKSA1 
+0
+3
+3
+Foinse Footprints
+MOLEX_39-29-1048
+
+
+0
+4
+4
+Foinse Footprints
+MOLEX_5023860570
+
+
+0
+7
+7
+Foinse Footprints
+PJ-002AH_CUD
+
+PJ-002AH 
+0
+0
+0
+Foinse Footprints
+RPA0010A-MFG
+
+TPS56A37RPAR 
+0
+10
+10
+Foinse Footprints
+SAMTEC_ESQ-110-14-G-D
+
+
+0
+20
+20
+Foinse Footprints
+SO4_TOS
+
+TLP291GB-TP_SE 
+0
+4
+4
+Foinse Footprints
+SO4_TOS-L
+
+TLP291GB-TP_SE 
+0
+4
+4
+Foinse Footprints
+SO4_TOS-M
+
+TLP291GB-TP_SE 
+0
+4
+4
+Foinse Footprints
+VSSOP_9AIDGST_TEX
+
+INA239AIDGSR 
+0
+10
+10
+Foinse Footprints
+VSSOP_9AIDGST_TEX-L
+
+INA239AIDGSR 
+0
+10
+10
+Foinse Footprints
+VSSOP_9AIDGST_TEX-M
+
+INA239AIDGSR 
+0
+10
+10
+Foinse Footprints
+WAG
+
+2060-1452/998-404 
+0
+4
+4
+Foinse Footprints
+XTAL_NX3225GD-8MHZ-STD-CRA-3_NDK
+
+NX3225GD-8MHZ-STD-CRA-3 
+0
+2
+2
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
@@ -106407,6 +106575,13 @@ TLV70433DBVT
 5
 5
 footprints
+HARWIN_S2761-46R
+
+
+0
+1
+1
+footprints
 IND_PA4342.332NLT
 
 
@@ -106434,6 +106609,20 @@ IPP80P03P4L04AKSA1
 0
 3
 3
+footprints
+MOLEX_39-29-1048
+
+
+0
+4
+4
+footprints
+MOLEX_5023860570
+
+
+0
+7
+7
 footprints
 PJ-002AH_CUD
 
