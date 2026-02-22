@@ -6497,6 +6497,12 @@
 		(uuid "02d39357-b165-4a0c-b078-1a56013a0ae6")
 	)
 	(junction
+		(at 35.56 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ed754c-c739-466f-a1fd-6bd104d2e68a")
+	)
+	(junction
 		(at 129.54 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6647,6 +6653,12 @@
 		(uuid "36330a95-0dd8-4dff-9ad5-8eceeaeb9a70")
 	)
 	(junction
+		(at 34.29 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36f9a969-0ba6-43a2-b27d-f2bbe2499df7")
+	)
+	(junction
 		(at 172.72 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6759,6 +6771,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c3c8198-a8e6-4032-9796-7adedaa1fdca")
+	)
+	(junction
+		(at 31.75 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d70afb6-4197-4bac-b5e5-32a646e6768a")
 	)
 	(junction
 		(at 95.25 59.69)
@@ -6927,6 +6945,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88b3a78f-f922-4576-94be-4d1611ea509a")
+	)
+	(junction
+		(at 34.29 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88d84583-854d-4bf4-946f-c44042fe2df9")
 	)
 	(junction
 		(at 281.94 180.34)
@@ -7328,6 +7352,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 189.23) (xy 36.83 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088cd8a1-4fb8-40e7-b15b-8f68bf87eaa1")
+	)
+	(wire
+		(pts
 			(xy 260.35 104.14) (xy 279.4 104.14)
 		)
 		(stroke
@@ -7658,6 +7692,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 123.19) (xy 36.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3051f8-8c91-4eeb-b840-8e0a04f3558e")
+	)
+	(wire
+		(pts
 			(xy 127 177.8) (xy 140.97 177.8)
 		)
 		(stroke
@@ -7888,7 +7932,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 189.23) (xy 36.83 189.23)
+			(xy 30.48 189.23) (xy 34.29 189.23)
 		)
 		(stroke
 			(width 0)
@@ -9618,6 +9662,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 254) (xy 38.1 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972b986e-4d1b-4490-b915-583b03acae56")
+	)
+	(wire
+		(pts
 			(xy 200.66 81.28) (xy 200.66 86.36)
 		)
 		(stroke
@@ -9685,6 +9739,16 @@
 			(type default)
 		)
 		(uuid "99d6fb88-5d91-485f-b340-d51068a5f0c3")
+	)
+	(wire
+		(pts
+			(xy 35.56 58.42) (xy 36.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2dea63-1854-4d04-ba26-12eb93e8e622")
 	)
 	(wire
 		(pts
@@ -10348,7 +10412,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 123.19) (xy 36.83 123.19)
+			(xy 30.48 123.19) (xy 31.75 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11068,7 +11132,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 58.42) (xy 36.83 58.42)
+			(xy 33.02 58.42) (xy 35.56 58.42)
 		)
 		(stroke
 			(width 0)
@@ -11168,7 +11232,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 254) (xy 38.1 254)
+			(xy 31.75 254) (xy 34.29 254)
 		)
 		(stroke
 			(width 0)
@@ -11964,7 +12028,7 @@
 	)
 	(global_label "DROGUE_FIRE"
 		(shape input)
-		(at 35.56 58.42 180)
+		(at 33.02 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11974,7 +12038,7 @@
 		)
 		(uuid "5d882045-842a-4f9f-bf8d-6e997c819d16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8748 58.42 0)
+			(at 17.3348 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13740,10 +13804,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "126deb8d-07fd-439a-acd6-92a9cae55a16")
 		(property "Reference" "R15"
-			(at 40.64 116.84 90)
+			(at 40.386 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13751,7 +13814,7 @@
 			)
 		)
 		(property "Value" "220 Ω"
-			(at 40.64 119.38 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,6 +14539,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 34.29 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f3e0949-8e0d-4750-91dc-ea5cc19c2a0f")
+		(property "Reference" "#PWR05"
+			(at 34.29 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2802bfb-6e79-4858-8450-5c7e4eab1c10")
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 71.12 63.5 0)
 		(unit 1)
@@ -14709,10 +14837,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "375d48b5-dad1-4eeb-b0a9-ed72096de26d")
 		(property "Reference" "R33"
-			(at 41.91 247.65 90)
+			(at 41.91 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14720,7 +14847,7 @@
 			)
 		)
 		(property "Value" "220 Ω"
-			(at 41.91 250.19 90)
+			(at 41.91 258.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14923,6 +15050,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ae4bbda-729d-40cc-b145-3c4130eeaf1e")
+		(property "Reference" "#PWR06"
+			(at 31.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bbf9af7-78f1-421f-a19d-bc2837004475")
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 90.17 240.03 90)
 		(unit 1)
@@ -15075,18 +15267,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41dfb6d7-31ea-4270-83df-753a9692f5bd")
 		(property "Reference" "R5"
-			(at 40.64 52.07 90)
+			(at 40.64 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220 Ω"
-			(at 40.64 54.61 90)
+		(property "Value" "220Ω"
+			(at 40.64 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17987,6 +18178,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 34.29 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76811b44-cbb4-432b-b61f-60fb105324d7")
+		(property "Reference" "R41"
+			(at 36.83 248.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 36.83 251.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 32.512 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd86a4ce-fa51-4fc4-a1f0-87cea1ac5271")
+		)
+		(pin "1"
+			(uuid "84763ccd-ce92-4b47-9b58-7a67a622da58")
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 30.48 262.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19501,6 +19762,71 @@
 			(project "Pleasc"
 				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93fae83e-e233-4233-bb55-3d54989b9e8c")
+		(property "Reference" "#PWR07"
+			(at 35.56 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50a036fb-5467-49d8-98cb-fe25e8933d43")
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -21077,6 +21403,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 31.75 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2aa0370-54d1-4a72-9a7f-710a76f97df9")
+		(property "Reference" "R26"
+			(at 34.29 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 34.29 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 29.972 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7c1c5e4-2735-47bf-a731-bd60ae1c9074")
+		)
+		(pin "1"
+			(uuid "53b9e038-24f2-4eaf-9b52-9523cdfbe079")
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 71.12 194.31 0)
 		(unit 1)
@@ -21377,10 +21773,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c418f792-85f1-4add-b7b8-4b58b6b7941d")
 		(property "Reference" "R24"
-			(at 40.64 182.88 90)
+			(at 40.64 191.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21388,7 +21783,7 @@
 			)
 		)
 		(property "Value" "220 Ω"
-			(at 40.64 185.42 90)
+			(at 40.386 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21858,6 +22253,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 34.29 246.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc08dc87-0b21-49cc-8a82-4b8c95a66384")
+		(property "Reference" "#PWR018"
+			(at 34.29 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 242.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d4450a3-394b-41ed-9ab0-28d12ce2cb5e")
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 129.54 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22248,6 +22708,76 @@
 			(project "Pleasc"
 				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 34.29 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0f1c4a7-85c0-4b07-a638-ce25a2f64018")
+		(property "Reference" "R17"
+			(at 36.83 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 36.83 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 32.512 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1513388-3df3-4e70-ae58-96b0a4f29a92")
+		)
+		(pin "1"
+			(uuid "11580c69-637a-4c6a-9801-886793b25b52")
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -23807,6 +24337,76 @@
 			(project "Pleasc"
 				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18a8334-220a-4db3-a65f-8afa1498dd98")
+		(property "Reference" "R35"
+			(at 38.1 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 38.1 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 33.782 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "148f7a3f-84f5-48f1-a401-3155f7839fb2")
+		)
+		(pin "1"
+			(uuid "10e81b79-4947-4552-bc98-0d99822dbfb6")
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(reference "R35")
 					(unit 1)
 				)
 			)
