@@ -5625,226 +5625,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TLV70433DBVT:TLV70433DBVT"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TLV70433DBVT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "DBV0005A_N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv704"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TLV70433DBVT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DBV0005A_N DBV0005A_M DBV0005A_L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV70433DBVT_0_1"
-				(polyline
-					(pts
-						(xy -12.7 10.16) (xy -12.7 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 10.16) (xy -12.7 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 -5.08 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Test Point:S2761-46R"
 			(pin_names
 				(offset 1.016)
@@ -6476,7 +6256,7 @@
 	)
 	(text "5V to 3.3V Regulation"
 		(exclude_from_sim no)
-		(at 305.308 103.632 0)
+		(at 305.562 115.316 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6668,8 +6448,8 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 289.56 106.68 0)
-		(size 66.04 39.37)
+		(at 289.56 118.11 0)
+		(size 69.85 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -6879,12 +6659,6 @@
 		(uuid "38de2c25-9f77-43fd-b39e-476a744ccde8")
 	)
 	(junction
-		(at 297.18 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a790762-1264-41b7-a2ff-b07ca5ac83e3")
-	)
-	(junction
 		(at 92.71 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6951,6 +6725,12 @@
 		(uuid "53184423-83fe-482d-8f83-a30de88bed18")
 	)
 	(junction
+		(at 336.55 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54f7d34c-aaa6-4d90-b74d-1d7b5292c316")
+	)
+	(junction
 		(at 76.2 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6987,12 +6767,6 @@
 		(uuid "5e4dd01b-256c-4777-b00f-4e613e52557e")
 	)
 	(junction
-		(at 339.09 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e52c623-e7ef-433e-93a2-d273c2ed8f88")
-	)
-	(junction
 		(at 264.16 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7009,12 +6783,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "608edfd2-c153-4591-a8df-8caaa7756012")
-	)
-	(junction
-		(at 298.45 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62388a87-3d8d-4ef6-9078-b96c667487ed")
 	)
 	(junction
 		(at 64.77 194.31)
@@ -7101,6 +6869,12 @@
 		(uuid "792f602f-a351-4f36-9d6a-2560569b6ffd")
 	)
 	(junction
+		(at 306.07 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79ac7055-c7d3-47c5-9f7e-48fcac790164")
+	)
+	(junction
 		(at 74.93 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7135,12 +6909,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "835c1f56-d206-4f4b-a2fa-377d16dc24f9")
-	)
-	(junction
-		(at 339.09 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83619e7c-14cd-4bbd-b43b-5df760990042")
 	)
 	(junction
 		(at 85.09 40.64)
@@ -7249,18 +7017,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad25430d-7f99-406b-aa6e-f30d2a513aff")
-	)
-	(junction
-		(at 297.18 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aebf80ef-ed70-46fb-b9a0-dcc7957c88a3")
-	)
-	(junction
-		(at 341.63 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afc2edfe-fe84-4ea2-8481-b282c375c579")
 	)
 	(junction
 		(at 85.09 200.66)
@@ -7411,12 +7167,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9646c18-3477-42e5-bac3-530436bb5993")
-	)
-	(junction
-		(at 300.99 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa666220-2085-41ab-890e-c06f1615c8d7")
 	)
 	(junction
 		(at 228.6 135.89)
@@ -7598,16 +7348,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 133.35) (xy 297.18 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08f552c4-b76a-4332-ba27-2d1b2cb0713d")
-	)
-	(wire
-		(pts
 			(xy 222.25 100.33) (xy 234.95 100.33)
 		)
 		(stroke
@@ -7645,16 +7385,6 @@
 			(type default)
 		)
 		(uuid "0a463985-5efd-483c-85f6-f54da82bf533")
-	)
-	(wire
-		(pts
-			(xy 297.18 125.73) (xy 298.45 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a666dea-d519-482a-a73a-3d8393d034df")
 	)
 	(wire
 		(pts
@@ -8008,16 +7738,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 121.92) (xy 300.99 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23c5d56f-6f80-469b-b7ee-4f240399ffe9")
-	)
-	(wire
-		(pts
 			(xy 170.18 83.82) (xy 172.72 83.82)
 		)
 		(stroke
@@ -8088,6 +7808,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 130.81) (xy 336.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27576923-322c-4c4d-898e-de07b88d21c3")
+	)
+	(wire
+		(pts
 			(xy 162.56 125.73) (xy 162.56 123.19)
 		)
 		(stroke
@@ -8105,16 +7835,6 @@
 			(type default)
 		)
 		(uuid "28c4abf7-a128-4786-b344-4cc53876d28f")
-	)
-	(wire
-		(pts
-			(xy 297.18 135.89) (xy 297.18 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b93299d-ab18-47d2-a587-103f8e174828")
 	)
 	(wire
 		(pts
@@ -8305,16 +8025,6 @@
 			(type default)
 		)
 		(uuid "34317f25-e32b-4f28-9847-292486e67521")
-	)
-	(wire
-		(pts
-			(xy 335.28 125.73) (xy 339.09 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34ee2b6d-cbc7-46c7-8051-f100c9a9dc38")
 	)
 	(wire
 		(pts
@@ -8638,16 +8348,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 114.3) (xy 339.09 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42cfc431-bdb2-434c-8736-22b74065b4f8")
-	)
-	(wire
-		(pts
 			(xy 41.91 276.86) (xy 45.72 276.86)
 		)
 		(stroke
@@ -8665,16 +8365,6 @@
 			(type default)
 		)
 		(uuid "4496f48a-491b-4898-865f-5f868328c9d4")
-	)
-	(wire
-		(pts
-			(xy 300.99 125.73) (xy 303.53 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "457f4f6d-8708-425e-a9bc-47da3d43c798")
 	)
 	(wire
 		(pts
@@ -8715,6 +8405,16 @@
 			(type default)
 		)
 		(uuid "48ce408d-5f02-453c-ad0e-13aeb5a3529b")
+	)
+	(wire
+		(pts
+			(xy 328.93 130.81) (xy 336.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d3acd1-95b7-4a7e-9b33-ffd30bb37fe0")
 	)
 	(wire
 		(pts
@@ -9168,16 +8868,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 123.19) (xy 298.45 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643160c5-1437-4f1e-a41b-05bbe2563d96")
-	)
-	(wire
-		(pts
 			(xy 73.66 69.85) (xy 73.66 72.39)
 		)
 		(stroke
@@ -9398,16 +9088,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 133.35) (xy 303.53 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76331150-2af5-4d45-9ef9-628b2b508edd")
-	)
-	(wire
-		(pts
 			(xy 44.45 63.5) (xy 40.64 63.5)
 		)
 		(stroke
@@ -9425,16 +9105,6 @@
 			(type default)
 		)
 		(uuid "7698b19c-1722-4dbb-9d2c-c7f4056f40ca")
-	)
-	(wire
-		(pts
-			(xy 350.52 116.84) (xy 350.52 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7762759c-db03-4e93-b898-0a9de8d20877")
 	)
 	(wire
 		(pts
@@ -9498,6 +9168,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 130.81) (xy 306.07 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dcc3ace-b2ee-4f49-8580-0440fa673641")
+	)
+	(wire
+		(pts
 			(xy 40.64 81.28) (xy 44.45 81.28)
 		)
 		(stroke
@@ -9555,16 +9235,6 @@
 			(type default)
 		)
 		(uuid "80c344d0-b1c7-4f2c-a55b-29c01b82afb3")
-	)
-	(wire
-		(pts
-			(xy 339.09 125.73) (xy 341.63 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81394fe7-a6f6-470b-aa5f-81504a4492ec")
 	)
 	(wire
 		(pts
@@ -9798,16 +9468,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 135.89) (xy 341.63 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f799c42-7ccf-49c3-a663-eabcba8db4f6")
-	)
-	(wire
-		(pts
 			(xy 203.2 166.37) (xy 203.2 189.23)
 		)
 		(stroke
@@ -10025,16 +9685,6 @@
 			(type default)
 		)
 		(uuid "99d6fb88-5d91-485f-b340-d51068a5f0c3")
-	)
-	(wire
-		(pts
-			(xy 297.18 135.89) (xy 303.53 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a4e68ac-c6bb-45a9-b69b-2ee9b1b4d53e")
 	)
 	(wire
 		(pts
@@ -10688,16 +10338,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 111.76) (xy 339.09 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7b45cef-d523-44e0-ae04-2a21b461d144")
-	)
-	(wire
-		(pts
 			(xy 215.9 177.8) (xy 205.74 177.8)
 		)
 		(stroke
@@ -10805,16 +10445,6 @@
 			(type default)
 		)
 		(uuid "d10382c4-203d-412c-92b3-848d30fec103")
-	)
-	(wire
-		(pts
-			(xy 298.45 125.73) (xy 300.99 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d217be34-43fb-4f72-8295-c549ff13eb06")
 	)
 	(wire
 		(pts
@@ -11148,16 +10778,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 125.73) (xy 346.71 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e448be3b-a12e-4c4d-af07-15ec2827f2cb")
-	)
-	(wire
-		(pts
 			(xy 218.44 214.63) (xy 224.79 214.63)
 		)
 		(stroke
@@ -11258,16 +10878,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 124.46) (xy 339.09 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb64e7c4-8069-42e9-a346-8761ce777688")
-	)
-	(wire
-		(pts
 			(xy 95.25 59.69) (xy 95.25 60.96)
 		)
 		(stroke
@@ -11285,16 +10895,6 @@
 			(type default)
 		)
 		(uuid "ebe0d00c-e553-4093-ad1c-37626ccdf6c4")
-	)
-	(wire
-		(pts
-			(xy 298.45 123.19) (xy 298.45 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec038f36-855d-4c4a-99b6-a91de8e32708")
 	)
 	(wire
 		(pts
@@ -11428,6 +11028,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 130.81) (xy 313.69 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a69f9f-c9fe-4ab0-b426-961f54c66126")
+	)
+	(wire
+		(pts
 			(xy 44.45 194.31) (xy 40.64 194.31)
 		)
 		(stroke
@@ -11475,16 +11085,6 @@
 			(type default)
 		)
 		(uuid "f6cc0a81-a500-4d43-b868-b1378bbedc0a")
-	)
-	(wire
-		(pts
-			(xy 350.52 111.76) (xy 339.09 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7024c35-b98e-4e14-b600-83cbecb75aa4")
 	)
 	(wire
 		(pts
@@ -12078,7 +11678,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 346.71 125.73 0)
+		(at 337.82 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12086,9 +11686,9 @@
 			)
 			(justify left)
 		)
-		(uuid "29d7eb07-a819-45ff-9db1-02b4108e5587")
+		(uuid "29ad032f-f38f-4a7c-a0d8-1ed0c61a6b56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.8076 125.73 0)
+			(at 344.9176 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,28 +11826,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5VLOGIC"
-		(shape input)
-		(at 300.99 121.92 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42f33ef3-4dce-4729-89a3-a368cdf62a3c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.99 111.1333 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12688,6 +12266,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VLOGIC"
+		(shape input)
+		(at 302.26 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bfd8a81-8ee3-4c1b-b482-3b3d3bf6c76c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.4733 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13437,142 +13037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 297.18 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02906991-c39a-4ebb-af5f-d759ae373465")
-		(property "Reference" "#PWR05"
-			(at 297.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 297.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 297.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33b55229-979d-4b27-8a45-74583f1fe3b3")
-		)
-		(instances
-			(project "Pleasc"
-				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 297.18 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07252ff2-c6e9-4440-9e36-9794763228a0")
-		(property "Reference" "C10"
-			(at 300.99 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 300.99 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 298.1452 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 297.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 297.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57e5f365-e53a-47c1-a7c4-b23ee77f4cb3")
-		)
-		(pin "2"
-			(uuid "c7bc117b-ffc3-4bff-aef5-2b95c3eb5003")
-		)
-		(instances
-			(project "Pleasc"
-				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Test Point:S2761-46R")
 		(at 260.35 123.19 270)
 		(unit 1)
@@ -13764,72 +13228,6 @@
 			(project "Pleasc"
 				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
 					(reference "CAN+1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 341.63 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08a09eec-adcd-4d66-84d5-3fa30dd354bc")
-		(property "Reference" "#PWR07"
-			(at 341.63 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 341.63 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c146bd61-f443-4fca-91ab-257ac76119ac")
-		)
-		(instances
-			(project "Pleasc"
-				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15449,85 +14847,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TLV70433DBVT:TLV70433DBVT")
-		(at 321.31 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a1e4388-95a9-4a36-9b02-10995b130216")
-		(property "Reference" "U2"
-			(at 321.31 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV70433DBVT"
-			(at 321.31 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Foinse Footprints:DBV0005A_N"
-			(at 321.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv704"
-			(at 321.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 321.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a8019709-392c-49f8-86a2-1e80da9740b5")
-		)
-		(pin "1"
-			(uuid "f244088c-3ab9-46c2-93a9-452907a70a2d")
-		)
-		(pin "3"
-			(uuid "f07fe2cf-d90d-4e40-b4ca-d7a0048fae55")
-		)
-		(pin "2"
-			(uuid "7a31cda0-81f9-4392-8011-b4f54b4f4135")
-		)
-		(pin "5"
-			(uuid "222573e1-9df4-4532-b032-bd0cfc9d474e")
-		)
-		(instances
-			(project "Pleasc"
-				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 99.06 171.45 180)
 		(unit 1)
@@ -15749,76 +15068,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 339.09 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "419254d4-1469-41f8-959a-f5ae985fdaa8")
-		(property "Reference" "C11"
-			(at 342.9 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
-			(at 342.9 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 340.0552 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 339.09 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 339.09 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bf425de-8298-429c-933e-8ebbe3877be3")
-		)
-		(pin "2"
-			(uuid "ed18e78a-02db-4b24-be8e-c76adba6ddce")
-		)
-		(instances
-			(project "Pleasc"
-				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 40.64 58.42 90)
 		(unit 1)
@@ -15888,7 +15137,7 @@
 	)
 	(symbol
 		(lib_id "Test Point:S2761-46R")
-		(at 334.01 114.3 180)
+		(at 342.9 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15897,23 +15146,25 @@
 		(fields_autoplaced yes)
 		(uuid "443a9e58-9662-48b1-aeb6-f9e5348573d7")
 		(property "Reference" "GND1"
-			(at 334.01 107.95 0)
+			(at 345.44 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "S2761-46R"
-			(at 334.01 110.49 0)
+			(at 345.44 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Foinse Footprints:HARWIN_S2761-46R"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15923,7 +15174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15932,7 +15183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15941,7 +15192,7 @@
 			)
 		)
 		(property "MF" "Harwin"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15951,7 +15202,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.15mm"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15961,7 +15212,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15971,7 +15222,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15981,7 +15232,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/S2761-46R/Harwin/view-part/?ref=eda"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15991,7 +15242,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16001,7 +15252,7 @@
 			)
 		)
 		(property "PARTREV" "1"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16011,7 +15262,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2761-46R/Harwin/view-part/?ref=snap"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16021,7 +15272,7 @@
 			)
 		)
 		(property "MP" "S2761-46R"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16031,7 +15282,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=783060&manufacturer=Harwin&part_name=S2761-46R&search_term=s2761-46r"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16041,7 +15292,7 @@
 			)
 		)
 		(property "Description_1" "SMT Test Point, 1.15mm high, tin, Tape and Reeled"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16051,7 +15302,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16061,7 +15312,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Harwin"
-			(at 334.01 114.3 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19644,72 +18895,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 350.52 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89fedc9c-700f-470f-a763-74ed733d08ae")
-		(property "Reference" "#PWR06"
-			(at 350.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7afecb98-355d-4165-b419-df7955b11d72")
-		)
-		(instances
-			(project "Pleasc"
-				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 127 182.88 0)
 		(unit 1)
@@ -21686,6 +20871,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 337.82 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bce13c4f-9ade-421a-8447-f9990d05d59f")
+		(property "Reference" "#PWR020"
+			(at 337.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba8f7ac4-9d8f-40a2-9217-0778fb198994")
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:NUP2105L")
 		(at 260.35 110.49 180)
 		(unit 1)
@@ -23217,7 +22467,7 @@
 	)
 	(symbol
 		(lib_id "Test Point:S2761-46R")
-		(at 341.63 130.81 270)
+		(at 336.55 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23225,7 +22475,7 @@
 		(dnp no)
 		(uuid "d61c6e05-7f36-478d-9973-243995ffb0ff")
 		(property "Reference" "3.3V1"
-			(at 344.17 129.5399 90)
+			(at 334.01 127.0001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23234,7 +22484,7 @@
 			)
 		)
 		(property "Value" "S2761-46R"
-			(at 336.55 133.604 90)
+			(at 341.63 122.936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23243,7 +22493,7 @@
 			)
 		)
 		(property "Footprint" "Foinse Footprints:HARWIN_S2761-46R"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23253,7 +22503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23262,7 +22512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23271,7 +22521,7 @@
 			)
 		)
 		(property "MF" "Harwin"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23281,7 +22531,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.15mm"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23291,7 +22541,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23301,7 +22551,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23311,7 +22561,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/S2761-46R/Harwin/view-part/?ref=eda"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23321,7 +22571,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23331,7 +22581,7 @@
 			)
 		)
 		(property "PARTREV" "1"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23341,7 +22591,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2761-46R/Harwin/view-part/?ref=snap"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23351,7 +22601,7 @@
 			)
 		)
 		(property "MP" "S2761-46R"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23361,7 +22611,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=783060&manufacturer=Harwin&part_name=S2761-46R&search_term=s2761-46r"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23371,7 +22621,7 @@
 			)
 		)
 		(property "Description_1" "SMT Test Point, 1.15mm high, tin, Tape and Reeled"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23381,7 +22631,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23391,7 +22641,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Harwin"
-			(at 341.63 130.81 0)
+			(at 336.55 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23552,7 +22802,7 @@
 	)
 	(symbol
 		(lib_id "Test Point:S2761-46R")
-		(at 292.1 123.19 180)
+		(at 306.07 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23560,7 +22810,7 @@
 		(dnp no)
 		(uuid "d64cb651-67fd-4500-82a9-1be33a67e97e")
 		(property "Reference" "5V1"
-			(at 292.354 120.65 0)
+			(at 308.61 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23568,7 +22818,7 @@
 			)
 		)
 		(property "Value" "S2761"
-			(at 292.862 126.238 0)
+			(at 303.022 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23576,7 +22826,7 @@
 			)
 		)
 		(property "Footprint" "Foinse Footprints:HARWIN_S2761-46R"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23586,7 +22836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23595,7 +22845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23604,7 +22854,7 @@
 			)
 		)
 		(property "MF" "Harwin"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23614,7 +22864,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.15mm"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23624,7 +22874,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23634,7 +22884,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23644,7 +22894,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/S2761-46R/Harwin/view-part/?ref=eda"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23654,7 +22904,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23664,7 +22914,7 @@
 			)
 		)
 		(property "PARTREV" "1"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23674,7 +22924,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2761-46R/Harwin/view-part/?ref=snap"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23684,7 +22934,7 @@
 			)
 		)
 		(property "MP" "S2761-46R"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23694,7 +22944,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=783060&manufacturer=Harwin&part_name=S2761-46R&search_term=s2761-46r"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23704,7 +22954,7 @@
 			)
 		)
 		(property "Description_1" "SMT Test Point, 1.15mm high, tin, Tape and Reeled"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23714,7 +22964,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23724,7 +22974,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Harwin"
-			(at 292.1 123.19 0)
+			(at 306.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24833,6 +24083,76 @@
 				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
 					(reference "R22")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 313.69 127)
+		(size 15.24 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f47c36d1-ca41-405f-a2b4-e35ddfda3551")
+		(property "Sheetname" "power"
+			(at 313.69 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 312.166 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 313.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3.3v" output
+			(at 328.93 130.81 0)
+			(uuid "33a8183b-b002-4daa-856c-a8853adabc8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "vin" input
+			(at 313.69 130.81 180)
+			(uuid "c456a84d-d308-421d-a343-bdfd6adafb62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Pleasc"
+				(path "/1b7a8725-bc75-48b8-9e63-a805116bded0"
+					(page "2")
 				)
 			)
 		)

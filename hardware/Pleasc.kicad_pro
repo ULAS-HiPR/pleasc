@@ -613,6 +613,10 @@
     [
       "1b7a8725-bc75-48b8-9e63-a805116bded0",
       "Root"
+    ],
+    [
+      "f47c36d1-ca41-405f-a2b4-e35ddfda3551",
+      "power"
     ]
   ],
   "text_variables": {}
