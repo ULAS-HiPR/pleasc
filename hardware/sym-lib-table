@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/Lib/XT30PW-M.kicad_sym")(options "")(descr ""))
+)
