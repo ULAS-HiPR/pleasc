@@ -1,0 +1,12 @@
+[submodule "firmware/lib/braiteoiri"]
+	path = firmware/lib/braiteoiri
+	url = https://github.com/ULAS-HiPR/braiteoiri.git
+	branch = main
+[submodule "firmware/lib/comheadan"]
+	path = firmware/lib/comheadan
+	url = https://github.com/ULAS-HiPR/comheadan.git
+	branch = main
+[submodule "firmware/lib/eigen"]
+	path = firmware/lib/eigen
+	url = https://gitlab.com/libeigen/eigen.git
+	branch = 5.0

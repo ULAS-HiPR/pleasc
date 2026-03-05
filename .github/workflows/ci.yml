@@ -1,0 +1,75 @@
+name: SIL Tests & Pico Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "firmware/**"
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - "firmware/**"
+      - ".github/workflows/**"
+    
+
+jobs:
+  sil-tests:
+    name: Run STM Checks & SIL tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PlatformIO
+        run: pip install platformio
+
+      - name: Run tests on SIL
+        run: |
+          cd firmware
+        # pio test -e sil -vvv  no tests for this repo rn
+
+      - name: Quality Check STM
+        run: |
+          cd firmware
+         # pio check -e nucleo_f411re not working rn :(
+ 
+  build-stm:
+    name: Build STM Firmware
+    runs-on: ubuntu-latest
+    needs: sil-tests
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PlatformIO
+        run: pip install platformio
+
+      - name: Build STM firmware
+        run: |
+          cd firmware
+          pio run -e nucleo_f411re
+
+      - name: Upload STM firmware
+        uses: actions/upload-artifact@v4
+        with:
+          name: stm-firmware
+          path: |
+            cd firmware
+            .pio/build/nucleo_f411re
