@@ -5,7 +5,7 @@
 [submodule "firmware/lib/comheadan"]
 	path = firmware/lib/comheadan
 	url = https://github.com/ULAS-HiPR/comheadan.git
-	branch = main
+	branch = dk/SIL
 [submodule "firmware/lib/eigen"]
 	path = firmware/lib/eigen
 	url = https://gitlab.com/libeigen/eigen.git

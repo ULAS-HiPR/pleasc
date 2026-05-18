@@ -53,7 +53,11 @@
   extern uint32_t SystemCoreClock;
 #endif
 #ifndef CMSIS_device_header
+#if defined(LINUX)
+#define CMSIS_device_header "linux_device_stub.h"
+#else
 #define CMSIS_device_header "stm32f4xx.h"
+#endif
 #endif /* CMSIS_device_header */
 
 #define configENABLE_FPU                         0
@@ -64,11 +68,19 @@
 #define configSUPPORT_DYNAMIC_ALLOCATION         1
 #define configUSE_IDLE_HOOK                      0
 #define configUSE_TICK_HOOK                      0
+#if !defined(LINUX)
 #define configCPU_CLOCK_HZ                       ( SystemCoreClock )
+#endif
 #define configTICK_RATE_HZ                       ((TickType_t)1000)
 #define configMAX_PRIORITIES                     ( 56 )
+#if defined(LINUX)
+#define configMINIMAL_STACK_SIZE                 ((uint16_t)1000)
+#define configTOTAL_HEAP_SIZE                    ((size_t)(64 * 1024))
+#define configNUM_THREAD_LOCAL_STORAGE_POINTERS  1
+#else
 #define configMINIMAL_STACK_SIZE                 ((uint16_t)128)
 #define configTOTAL_HEAP_SIZE                    ((size_t)15360)
+#endif
 #define configMAX_TASK_NAME_LEN                  ( 16 )
 #define configUSE_TRACE_FACILITY                 1
 #define configUSE_16_BIT_TICKS                   0
@@ -123,30 +135,21 @@ to exclude the API function. */
  */
 #define USE_FreeRTOS_HEAP_4
 
-/* Cortex-M specific definitions. */
+/* Cortex-M specific definitions (not used on Linux/POSIX). */
+#if !defined(LINUX)
 #ifdef __NVIC_PRIO_BITS
- /* __BVIC_PRIO_BITS will be specified when CMSIS is being used. */
  #define configPRIO_BITS         __NVIC_PRIO_BITS
 #else
  #define configPRIO_BITS         4
 #endif
 
-/* The lowest interrupt priority that can be used in a call to a "set priority"
-function. */
 #define configLIBRARY_LOWEST_INTERRUPT_PRIORITY   15
-
-/* The highest interrupt priority that can be used by any interrupt service
-routine that makes calls to interrupt safe FreeRTOS API functions.  DO NOT CALL
-INTERRUPT SAFE FREERTOS API FUNCTIONS FROM ANY INTERRUPT THAT HAS A HIGHER
-PRIORITY THAN THIS! (higher priorities are lower numeric values. */
 #define configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY 5
-
-/* Interrupt priorities used by the kernel port layer itself.  These are generic
-to all Cortex-M ports, and do not rely on any particular library functions. */
-#define configKERNEL_INTERRUPT_PRIORITY 		( configLIBRARY_LOWEST_INTERRUPT_PRIORITY << (8 - configPRIO_BITS) )
-/* !!!! configMAX_SYSCALL_INTERRUPT_PRIORITY must not be set to zero !!!!
-See http://www.FreeRTOS.org/RTOS-Cortex-M3-M4.html. */
-#define configMAX_SYSCALL_INTERRUPT_PRIORITY 	( configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY << (8 - configPRIO_BITS) )
+#define configKERNEL_INTERRUPT_PRIORITY \
+    ( configLIBRARY_LOWEST_INTERRUPT_PRIORITY << (8 - configPRIO_BITS) )
+#define configMAX_SYSCALL_INTERRUPT_PRIORITY \
+    ( configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY << (8 - configPRIO_BITS) )
+#endif /* !LINUX */
 
 /* Normal assert() semantics without relying on the provision of an assert.h
 header file. */
@@ -155,9 +158,11 @@ header file. */
 /* USER CODE END 1 */
 
 /* Definitions that map the FreeRTOS port interrupt handlers to their CMSIS
-standard names. */
+standard names (ARM only). */
+#if !defined(LINUX)
 #define vPortSVCHandler    SVC_Handler
 #define xPortPendSVHandler PendSV_Handler
+#endif
 
 /* IMPORTANT: After 10.3.1 update, Systick_Handler comes from NVIC (if SYS timebase = systick), otherwise from cmsis_os2.c */
 
