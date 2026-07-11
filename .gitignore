@@ -38,3 +38,7 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+.DS_Store
+firmware/.pio/
+firmware/.vscode/

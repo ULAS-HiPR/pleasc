@@ -1,0 +1,36 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0",
+    "mcu": "stm32f072c8t6",
+    "product_line": "STM32F072xB",
+    "extra_flags": [
+      "-DSTM32F072xB"
+    ],
+    "f_cpu": "48000000L",
+    "variant": "STM32F0xx"
+  },
+  "debug": {
+    "jlink_device": "STM32F072C8",
+    "openocd_target": "stm32f0x",
+    "svd_path": "STM32F0x2.svd"
+  },
+  "frameworks": [
+    "stm32cube"
+  ],
+  "name": "STM32F072C8T6 Custom",
+  "upload": {
+    "flash_size": 64,
+    "maximum_ram_size": 16384,
+    "maximum_size": 65536,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink",
+      "jlink",
+      "cmsis-dap",
+      "blackmagic"
+    ]
+  },
+  "url": "https://www.st.com/",
+  "vendor": "ST"
+}

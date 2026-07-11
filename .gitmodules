@@ -1,0 +1,4 @@
+[submodule "firmware/lib/comheadan"]
+	path = firmware/lib/comheadan
+	url = https://github.com/ULAS-HiPR/comheadan.git
+	branch = ogma/flight-hardening
