@@ -1,0 +1,42 @@
+name: Firmware CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, ogma/flight-hardening]
+    paths:
+      - "firmware/**"
+      - ".github/workflows/**"
+  pull_request:
+    branches: [main]
+    paths:
+      - "firmware/**"
+      - ".github/workflows/**"
+
+jobs:
+  firmware:
+    name: Build ${{ matrix.environment }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        environment:
+          - stm32f072c8t6
+          - stm32f072c8t6_rev1_pyro
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install platformio
+      - run: pio run -e ${{ matrix.environment }}
+        working-directory: firmware
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pleasc-${{ matrix.environment }}
+          path: |
+            firmware/.pio/build/${{ matrix.environment }}/firmware.bin
+            firmware/.pio/build/${{ matrix.environment }}/firmware.elf
+          if-no-files-found: error
