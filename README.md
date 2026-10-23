@@ -25,3 +25,7 @@ Rev 1 PCB fabrication was sponsored through [EasyEDA Education](https://easyeda.
 ## More information
 
 See the [Ogma project write-up](https://sean-osullivan.com/projects/ogma/) for the complete stack, bring-up work, and current status.
+
+> [!WARNING]
+> This project is archived, and is no longer actively supported.
+> Contact us for more details.
